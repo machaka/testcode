@@ -9,6 +9,7 @@
 
 require_once('MotorFactoryMethod/MotorFactory.php');
 
+//Generate a random Alph (A-Z)
 $index = chr(rand(65, 90));
 
 $motor = MotorFactory::startEngine($index, 'General Motors');
